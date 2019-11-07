@@ -1,0 +1,61 @@
+.pagination{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif; 
+    color: #a2a2a2;
+    margin-bottom: 71px;
+}
+
+.pagination__square{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    height: 25px;
+    width: 25px;
+    border-radius: 15%;
+}
+
+.pagination__square--active{
+    background-color: #000;
+}
+
+.pagination__controlls{
+    display: flex;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+    margin-left: 20px;
+}
+
+.pagination__pages-list{
+    display: flex;
+    margin-top: -5px;
+    margin-left: 15px;
+}
+
+.pagination__pages-item:last-child{
+    margin-right: 20px; 
+}
+
+.pagination__pages-link{
+    font-weight: bold;
+    color: #000;  
+}
+
+.pagination__next{
+    margin-left: -10px;
+}
+
+.pagination__pages-link:hover{
+    font-weight: bold;
+    color: #f89513;  
+}
+
+.pagination__pages-link--active{
+    color: #f89513;
+}
+
+.pagination--padding--17-63{
+    margin: 17px auto 63px;
+}
+

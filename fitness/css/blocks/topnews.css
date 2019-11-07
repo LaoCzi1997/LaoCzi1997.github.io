@@ -1,0 +1,28 @@
+.topnews{
+    font-size: 12px;
+    letter-spacing: 1px;  
+    width: 15%; 
+}
+
+.topnews__mouth{
+    color: #656464;
+    font-weight: bold;
+    margin-top: 4px;  
+    margin-bottom: 20px;
+}
+
+.topnews__title {
+    font-weight: bold;
+}
+
+.topnews__item{
+    margin-bottom: 18px;
+}
+
+.topnews__item:last-child{
+    margin-bottom: 0;
+}
+
+.topnews__pic{
+    max-width: 100%;
+}

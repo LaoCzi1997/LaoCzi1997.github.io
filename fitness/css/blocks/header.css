@@ -1,0 +1,13 @@
+.header{
+    min-width: 100%;
+    background-color: #131415;
+    margin-bottom: 76px;
+}
+
+.header__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 76px;
+}
+

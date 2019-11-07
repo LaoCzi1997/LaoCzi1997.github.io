@@ -1,0 +1,16 @@
+.all__container {
+    display: flex;
+}
+
+.all__aside {
+    width: 24%;
+}
+
+.page-content {
+    width: 76%;
+}
+
+.page-content__container {
+    width: 100%;
+}
+

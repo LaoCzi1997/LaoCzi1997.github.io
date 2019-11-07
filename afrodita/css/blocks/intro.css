@@ -1,0 +1,42 @@
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 169px;
+    height: 276px;
+    opacity: 0;
+    animation: intro-animation 2s 1s forwards;
+    
+}
+
+.intro__logo {
+    display: flex;
+    justify-content: center;
+}
+
+@keyframes intro-animation {
+    from {
+        transform: scale(.6);
+    }
+
+    25% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(.7);
+    }
+
+    75% {
+        transform: scale(1);
+    }
+
+    95% {
+        transform: scale(.95);
+    }
+
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}

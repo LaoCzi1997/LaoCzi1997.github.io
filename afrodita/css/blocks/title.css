@@ -1,0 +1,20 @@
+.title{
+    font-size: 49px;
+    font-weight: bold; 
+    letter-spacing: 1.42px;
+}
+
+.title--center{
+    text-align: center; 
+    margin-bottom: 50px;
+}
+
+.title--letter-spacing-0{
+    letter-spacing: 0;
+}
+
+.title--in-feature {
+    font-size: 18px;
+    text-align: center; 
+    margin-bottom: 27px;
+}

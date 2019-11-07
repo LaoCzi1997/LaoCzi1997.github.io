@@ -1,0 +1,6 @@
+.news{
+    display: flex;
+    justify-content: space-between;
+    color: #221f1f;
+    margin-bottom: 54px;
+}

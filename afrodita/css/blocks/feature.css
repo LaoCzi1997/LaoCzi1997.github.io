@@ -1,0 +1,103 @@
+.features{
+    text-align: center;
+    width: 100%;
+    background-color: #131415;
+    padding-top: 53px;
+    padding-bottom: 100px;
+    color: white;
+    margin-bottom: 56px;
+}
+
+.feature {
+    color: black;
+    border: 1px solid black;
+    padding: 23px 0;
+}
+
+.feature__title{
+    text-align: center;
+    font-weight: bold;
+    font-size: 12px; 
+    margin-bottom: 13px; 
+    letter-spacing: 1.42px; 
+}
+
+.features__list{
+    margin-top: 53px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.features__item:first-child{
+    margin-left: 160px;
+}
+
+.features__item:nth-child(3){
+    margin-right: 160px;
+}
+
+.feature__item-list{
+    line-height: 35px;
+    margin: auto;
+}
+
+.feature__item-comp{
+    list-style: disc;
+    text-align: left;
+}
+
+.feature__desc{
+    display: flex;
+    flex-direction: column;
+    font-size: 19px;
+    text-align: center;   
+}
+
+.feature__desc-text{
+    line-height: 30px;
+}
+
+.feature__circle{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f89513;
+    height: 73px;
+    width: 73px;
+    border-radius: 50%;
+    margin: 0 auto 40px;
+}
+
+.feature__icon--flower:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 27px;
+    height: 31px;
+    background: url('../../img/sprites.png') -454px -10px;
+}
+
+.feature__icon--palette:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 28px; 
+    height: 29px;
+    background: url('../../img/sprites.png') -501px -10px;
+}
+
+.feature__icon--star:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 32px; 
+    height: 32px;
+    background: url('../../img/sprites.png') -549px -10px;
+}

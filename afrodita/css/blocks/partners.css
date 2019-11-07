@@ -1,0 +1,46 @@
+.partners {
+    flex-wrap: wrap;
+    margin-top: 50px;
+    border: 1px solid black;
+    padding: 25px 0;
+}
+
+.partners__title {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.partners__list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.partners__item {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    min-height: 112px;
+}
+
+.partners__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    padding: 25px;
+}
+
+.partners__logo {
+    filter: grayscale(100%);
+}
+
+.partners__logo:hover {
+    filter: grayscale(0);
+    transition: 0.3s;
+}
+
+
+
+
+

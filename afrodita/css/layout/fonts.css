@@ -1,0 +1,30 @@
+@font-face {
+    font-family: GoraFree;
+    src: url('../../fonts/Gora-Free.ttf');
+}
+
+@font-face {
+    font-family: OpenSans;
+    src: url('../../fonts/OpenSans-Bold.ttf');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: OpenSans;
+    src: url('../../fonts/OpenSans-Light.ttf');
+    font-weight: 300;
+    font-style: normal;
+} 
+
+@font-face {
+    font-family: OpenSans;
+    src: url('../../fonts/OpenSans-LightItalic.ttf');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+}

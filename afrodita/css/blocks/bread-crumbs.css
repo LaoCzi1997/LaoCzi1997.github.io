@@ -1,0 +1,22 @@
+.bread-crumbs {
+    padding: 39px 0 19px;
+}
+.bread-crumbs__list {
+    display: flex;
+}
+.bread-crumbs__link {
+    font-size: 14px;
+    color: #f89513;
+    font-style: italic;
+    text-decoration: underline;
+}
+.bread-crumbs__item::after {
+    content: "/";
+}
+.bread-crumbs__item:last-child:after {
+    content: "";
+}
+.bread-crumbs__item:last-child .bread-crumbs__link {
+    color: #4e4c4c;
+    text-decoration: none;
+}

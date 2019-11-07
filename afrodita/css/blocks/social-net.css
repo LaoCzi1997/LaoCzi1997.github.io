@@ -1,0 +1,107 @@
+.social-net {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.social-net__title{
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: black; 
+    margin-bottom: 8px;    
+}
+
+.social-net__list{
+    display: flex;
+}
+
+.social-net__item{
+    font-weight: bold;
+    color: #767575;
+}
+
+.social-net__item{
+    margin-left: 10px;
+}
+
+.social-net__item:first-child{
+    margin-left: 0;
+}
+
+.social-net__circle{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
+
+.social-net__circle:hover{
+    background-color: #f89513;
+}
+
+.social-net__link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-net__icon--vk:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 12px; 
+    height: 7px;
+    background: url('../../img/sprites.png') -151px -10px;
+}
+
+.social-net__icon--fb:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 6px; 
+    height: 13px;
+    background: url('../../img/sprites.png') -10px -10px;
+}
+
+.social-net__icon--google:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 15px; 
+    height: 9px;
+    background: url('../../img/sprites.png') -183px -10px;
+}
+
+.social-net__icon--twitter:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 11px; 
+    height: 9px;
+    background: url('../../img/sprites.png') -88px -10px;
+}
+
+.social-net__icon--mail:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 12px; 
+    height: 9px;
+    background: url('../../img/sprites.png') -119px -10px;
+}

@@ -1,0 +1,18 @@
+.tiles__list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 42px;
+}
+
+.tiles__item {
+    display: flex;
+    flex-direction: column;
+    width: calc(100% / 3 - 43px);
+    margin-bottom: 5px;
+}
+
+
+
+
+

@@ -1,0 +1,37 @@
+.topnews{
+    font-size: 12px;
+    letter-spacing: 1px;  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 62px;
+}
+
+.topnews__mouth{
+    color: #656464;
+    font-weight: bold;
+    margin-top: 4px;  
+    margin-bottom: 20px;
+}
+
+.topnews__title {
+    font-weight: bold;
+}
+
+.topnews__item{
+    margin-bottom: 18px;
+}
+
+.topnews__item:last-child{
+    margin-bottom: 0;
+}
+
+.topnews__wrapper-pic {
+    width: 170px;
+    overflow: hidden;
+}
+
+.topnews__pic{
+    min-width: 100%;
+}
+

@@ -1,0 +1,81 @@
+.pagination{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif; 
+    color: #a2a2a2;
+    margin-bottom: 50px;
+}
+
+.pagination__content {
+    display: flex;
+    margin-left: -114px;
+}
+
+.pagination__square{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    height: 25px;
+    width: 25px;
+    border-radius: 15%;
+}
+
+.pagination__square--active{
+    background-color: #000;
+}
+
+.pagination__controlls{
+    display: flex;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+    margin-left: 22px;
+}
+
+.pagination__pages-list{
+    display: flex;
+    margin-top: -5px;
+    margin-left: 25px;
+}
+
+.pagination__pages-item:last-child{
+    margin-right: 20px; 
+}
+
+.pagination__pages-link{
+    font-weight: bold;
+    color: #000;  
+}
+
+.pagination__pages-link:hover{
+    font-weight: bold;
+    color: #f89513;  
+}
+
+.pagination__pages-link--active{
+    color: #f89513;
+}
+
+.pagination__arrow {
+    position: relative;
+    padding-top: 3px;
+}
+
+.pagination__arrow--prev:after {
+    content: "";
+    position: absolute;
+    width: 6px; 
+    height: 10px;
+    background: url('../../img/sprites.png') -36px -10px;
+}
+
+.pagination__arrow--next:after {
+    content: "";
+    position: absolute;
+    width: 6px; 
+    height: 10px;
+    background: url('../../img/sprites.png') -62px -10px;
+    margin-left: -10px;
+}
+
+

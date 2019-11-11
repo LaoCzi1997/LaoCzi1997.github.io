@@ -54,10 +54,14 @@
                             </svg>
                             <a href="tel:+79888712709" class="contacts__phone-number">8 988 871 27 09</a>
                         </div>
+                        <a class="hamburger-menu">
+                            <div class="hamburger-menu__lines"></div>
+                        </a>
                     </header>
                     <div class="hero__content">
                         <div class="hero__desc">
-                            <h2 class="title title--color--write">натуральные шоколадные батончики</h2>
+                            <h2 class="title title--color--write title--non-centered">натуральные шоколадные батончики
+                            </h2>
                             <div class="hero__subtitle">
                                 Наши батончики идеально подходят для
                                 тех, кто следит за своим здоровьем
@@ -65,28 +69,34 @@
                             <a href="#order" class="btn btn--white">заказать</a>
                             <ul class="hero-feature__list">
                                 <li class="hero-feature__item">
-                                    <svg class="hero-feature__icon">
-                                        <use xlink:href="images/icons/sprite.svg#natural"></use>
-                                    </svg>
+                                    <div class="hero-feature__picture">
+                                        <svg class="hero-feature__icon">
+                                            <use xlink:href="images/icons/sprite.svg#natural"></use>
+                                        </svg>
+                                    </div>
                                     <div class="hero-feature__text">100% натуральный продукт</div>
                                 </li>
                                 <li class="hero-feature__item">
-                                    <svg class="hero-feature__icon">
-                                        <use xlink:href="images/icons/sprite.svg#delivery"></use>
-                                    </svg>
+                                    <div class="hero-feature__picture">
+                                        <svg class="hero-feature__icon">
+                                            <use xlink:href="images/icons/sprite.svg#delivery"></use>
+                                        </svg>
+                                    </div>
                                     <div class="hero-feature__text">3-5 дней доставка по РФ</div>
                                 </li>
                                 <li class="hero-feature__item">
-                                    <svg class="hero-feature__icon">
-                                        <use xlink:href="images/icons/sprite.svg#figure"></use>
-                                    </svg>
+                                    <div class="hero-feature__picture">
+                                        <svg class="hero-feature__icon">
+                                            <use xlink:href="images/icons/sprite.svg#figure"></use>
+                                        </svg>
+                                    </div>
                                     <div class="hero-feature__text">Не портит фигуру</div>
                                 </li>
                             </ul>
                         </div>
-                        <!-- <div class="hero__picture">
+                        <div class="hero__picture">
                             <img src="images/content/hero-chocco.png" alt="" class="hero__img">
-                        </div> -->
+                        </div>
                     </div>
                 </div>
             </div>
@@ -418,7 +428,10 @@
                                     style="background-image: url('images/content/boris.jpg');">
                                 </div>
                                 <div class="accordeon-team__desc">
-                                    <a href="#" class="accordeon-team__name">Борис Федорович</a>
+                                    <a href="#" class="accordeon-team__name-wrapper">
+                                        <div class="accordeon-team__name">Борис Федорович</div>
+                                        <div class="accordeon-team__triangle"></div>
+                                    </a>
                                     <div class="accordeon-team__text-wrapper">
                                         <div class="accordeon-team__text">
                                             <div class="accordeon-team__post">Главный технолог</div>
@@ -434,7 +447,10 @@
                                     style="background-image: url('images/content/alla.jpg');">
                                 </div>
                                 <div class="accordeon-team__desc">
-                                    <a href="#" class="accordeon-team__name">Алла Иванова</a>
+                                    <a href="#" class="accordeon-team__name-wrapper">
+                                        <div class="accordeon-team__name">Алла Иванова</div>
+                                        <div class="accordeon-team__triangle"></div>
+                                    </a>
                                     <div class="accordeon-team__text-wrapper">
                                         <div class="accordeon-team__text">
                                             <div class="accordeon-team__post">Специалист по упаковке</div>
@@ -450,7 +466,10 @@
                                     style="background-image: url('images/content/kiril.jpg');">
                                 </div>
                                 <div class="accordeon-team__desc">
-                                    <a href="#" class="accordeon-team__name">Кирилл Матросов</a>
+                                    <a href="#" class="accordeon-team__name-wrapper">
+                                        <div class="accordeon-team__name">Кирилл Матросов</div>
+                                        <div class="accordeon-team__triangle"></div>
+                                    </a>
                                     <div class="accordeon-team__text-wrapper">
                                         <div class="accordeon-team__text">
                                             <div class="accordeon-team__post">Оператор</div>
@@ -466,7 +485,10 @@
                                     style="background-image: url('images/content/mila.jpg');">
                                 </div>
                                 <div class="accordeon-team__desc">
-                                    <a href="#" class="accordeon-team__name">Мила Рыжкова</a>
+                                    <a href="#" class="accordeon-team__name-wrapper">
+                                        <div class="accordeon-team__name">Мила Рыжкова</div>
+                                        <div class="accordeon-team__triangle"></div>
+                                    </a>
                                     <div class="accordeon-team__text-wrapper">
                                         <div class="accordeon-team__text">
                                             <div class="accordeon-team__post">PR, маркетинг</div>
@@ -796,6 +818,35 @@
             <div class="modal__text" id="modal__text"></div>
             <a class="btn btn--centered">закрыть</a>
         </div>
+    </div>
+
+    <div class="modal-menu">
+        <ul class="modal-menu__list">
+            <li class="modal-menu__item">
+                <a href="#reasons" class="modal-menu__link">О нас</a>
+            </li>
+            <li class="modal-menu__item">
+                <a href="#choco-slider" class="modal-menu__link">Батончики</a>
+            </li>
+            <li class="modal-menu__item">
+                <a href="#team" class="modal-menu__link">Команда</a>
+            </li>
+            <li class="modal-menu__item">
+                <a href="#menu-block" class="modal-menu__link">Меню</a>
+            </li>
+            <li class="modal-menu__item">
+                <a href="#reviews" class="modal-menu__link">Отзывы</a>
+            </li>
+            <li class="modal-menu__item">
+                <a href="#how-work" class="modal-menu__link">Как мы работаем</a>
+            </li>
+            <li class="modal-menu__item">
+                <a href="#map-section" class="modal-menu__link">Контакты</a>
+            </li>
+        </ul>
+        <a href="#" class="modal-menu__close-link">
+            <div class="modal-menu__close"></div>
+        </a>
     </div>
 
     <script src="https://www.youtube.com/iframe_api"></script>

@@ -981,6 +981,16 @@ table {
   font-weight: bold;
   font-size: 0.5rem; }
 
+@media screen and (max-width: 768px) {
+  #yt-player {
+    width: 28.75rem;
+    height: 16.25rem; } }
+
+@media screen and (max-width: 480px) {
+  #yt-player {
+    width: 20.625rem;
+    height: 13.125rem; } }
+
 .popup-menu {
   position: fixed;
   display: flex;
